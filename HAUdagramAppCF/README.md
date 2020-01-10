@@ -1,6 +1,6 @@
 # CloudDevOps
 
-Deployment of High-Availability web services using CloudFormation.
+Udacity Project 2 Deployment of High-Availability web services using CloudFormation.
 
 
 **Problem**
@@ -20,7 +20,7 @@ In this project, I deployed web servers for a highly available web app – Udagr
 
 ![UdagramDiagram](Images/HAappDiagram.PNG)
 
-How to Build
+
 
 ```
 - Udagram code
