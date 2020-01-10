@@ -1,0 +1,38 @@
+Description: >
+    Roman Golovnya / Udacity Udagram P2
+Parameters:
+# whatever you consider a changing value, put it as a parameter instead of hard-coding it into your script
+    EnvironmentName:
+        Description: An environment name that will be prefixed to the resource
+        Type: String
+
+Resources:
+  #instace profile contains the IAM Role name(s) that we want to associate to our auto scaling EC2 Servers
+    AppRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            ManagedPolicyArns:
+              - "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
+            AssumeRolePolicyDocument:
+                Version: "2012-10-17"
+                Statement:
+                  - Effect: "Allow"
+                    Principal:
+                      Service:
+                        - "ec2.amazonaws.com"
+                    Action:
+                      - "sts:AssumeRole"
+            Path: "/"
+
+    ProfileWithRolesForOurApp:
+        Type: AWS::IAM::InstanceProfile
+        Properties: 
+            Roles:
+              - Ref: "AppRole"
+
+Outputs:
+  IAMRoleWebApp:
+    Description: "Allow EC2 instances to Read S3"
+    Value: !Ref ProfileWithRolesForOurApp
+    Export:
+      Name: !Sub ${EnvironmentName}-IAM-NAME

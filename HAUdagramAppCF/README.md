@@ -18,12 +18,16 @@ In this project, I deployed web servers for a highly available web app – Udagr
 
 **Architecture diagram**
 
+![UdagramDiagram](Images/HAappDiagram.PNG)
+
 How to Build
 
-```sh
-- Web site travel blog
-- Policy.json : Bucket's policy.
+```
+- Udagram code
+- Architecture diagram
+- How to build
 - Images
+- Udagram web app
 ```
 
 **How to build**
