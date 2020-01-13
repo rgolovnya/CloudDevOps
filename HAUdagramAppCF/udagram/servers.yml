@@ -1,8 +1,8 @@
 Description: >
-    Roman Golovnya / Udacity 2020
+    Roman Golovnya / Udacity Udagram P2
 Parameters:
     EnvironmentName:
-        Description: An environment name that willbe prefixed to resource
+        Description: An environment name that will be prefixed to the resource
         Type: String
 
 Resources:
@@ -79,7 +79,7 @@ Resources:
             LaunchConfigurationName:
                 Ref: WebAppLaunchConfig
             MinSize: '4'
-            MaxSize: '5'
+            MaxSize: '4'
             TargetGroupARNs:
             - Ref: WebAppTargetGroup
 
