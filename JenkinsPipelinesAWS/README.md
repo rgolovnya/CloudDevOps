@@ -11,4 +11,6 @@
 
 P3 Jenkins Pipelines on AWS
 
-Create a Jenkins Pipeline, which include Lint HTML and Upload to AWS
+This project demonstrates a CI CD pipeline for a S3 based website.
+
+ The Jenkinsfile has the build setup with linting and curl verification.
