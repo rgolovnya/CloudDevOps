@@ -6,7 +6,7 @@
 
 [Project 3 Jenkins Pipelines on AWS.](https://github.com/rgolovnya/static)
 
-[Project 4 Operationalize a Machine Learning Microservice API.](MLops/README.md)
+[Project 4 Operationalize a Machine Learning Microservice API.](https://github.com/rgolovnya/Operationalize-a-Machine-Learning-Microservice-API)
 
 [Project 5 Develop a CICD pipeline for microservice application with rolling deployment.](CapstoneProject/README.md)
 
