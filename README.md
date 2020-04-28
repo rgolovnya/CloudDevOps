@@ -8,6 +8,4 @@
 
 [Project 4 Operationalize a Machine Learning Microservice API.](https://github.com/rgolovnya/Operationalize-a-Machine-Learning-Microservice-API)
 
-[Project 5 Develop a CICD pipeline for microservice application with blue green deployment.](https://github.com/rgolovnya/CICD-pipeline)
-
-[Project 6 Develop a CICD pipeline for microservice application with rolling deployment.](https://github.com/rgolovnya/CICDpipeline4microserviceapp)
+[Project 5 Develop a CICD pipeline for microservice application with rolling deployment.](https://github.com/rgolovnya/CICDpipeline4microserviceapp)
